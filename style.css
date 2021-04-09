@@ -1,0 +1,241 @@
+
+      
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+      * {     
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+    }
+
+      html, body {
+          background: #eee;
+          font-family: 'Poppins', sans-serif;
+          overflow-x: hidden;
+    }   
+      section {     
+          margin: 8px;
+          padding: 20px 10px;       
+    } 
+
+      header {
+          color: #222;
+          margin: 0 auto;
+          text-align: center;
+          font-size: 1.5em;
+          padding: 0.1em;                 
+    }  
+
+    /****************   
+     Top Logo Layout 
+    *****************/
+
+      #topLogo,  .signUp, .shopLogo {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;  
+          background-size: cover;
+          margin: 0 auto;
+
+    }
+      #topLogo {
+          height: 70vh;
+          background-image: url(https://cdn.pixabay.com/photo/2018/02/20/17/29/fitness-3168246_960_720.jpg); 
+    }
+
+      span {
+          color: rgb(201, 27, 5);
+          box-shadow: 0px 2px 5px 3px hsl(0, 79%, 95%); 
+          cursor: pointer;     
+    }
+
+      .smart-img {
+          min-width: 150px;
+          height: 58vh;
+          border-radius: 50px;
+          margin-left: 200px;
+          box-shadow: 0px 3px 10px 0px #44f121da;         
+    }
+
+      @media (max-width: 724px) {
+          #topHeader, .signUp  {
+           display: flex;
+           flex-direction: column;                
+          }
+
+          
+
+                #topHeader img {
+                width: 30%;
+                height: 50vh;
+                margin-left: 10px;
+          }
+
+
+         .signUp:hover {
+             background-color: darkblue;
+              opacity: .8;
+              transition: all .8s;      
+         }
+
+
+
+    }     
+
+    /****************   
+            Top Header Layout 
+           *****************/
+
+      #topHeader p, h2{
+          margin: 5px 20px 10px;
+          color: #f85a97c2;
+          font-size: 1.5em;
+          font-weight: bolder;
+    } 
+      
+      .signUp, .signlogo {
+          color: #fff;
+          text-decoration: none;
+          cursor: pointer;
+          text-align: center;
+          letter-spacing: .1em;
+          background-color: #fd6a35;
+          line-height: 5vh;
+          margin-right: 40em;
+          padding-left: 30px;
+          min-width: 200px;
+          border-radius: 40px;
+    }        
+               
+      .signUp:hover {
+          opacity: .8;
+          transition: all .8s;      
+    } 
+
+    /****************   
+      Nav-Layout 
+    *****************/
+
+     #navbar {
+          position: absolute;
+          max-width: 200px;
+          background: transparent;
+          margin: 0 auto;
+          padding: 3em 1em .1em .5em;
+          border-right: dotted .1px;
+          border-color: #b4b4b4;       
+    }
+       
+      #navbar ul {
+          list-style: none;
+          height: 100%;
+          margin-top: .1em; 
+          overflow-y: auto;
+          overflow-x: hidden; 
+    }
+
+      #navbar li {
+          line-height: 3vh;
+          border-bottom: .1px dotted #b4b4b4;
+          padding: 20px 30px;
+          text-align: center;
+          z-index: 1; 
+          font-size: 1em;
+          font-weight: 400;             
+    }
+
+      #navbar a {
+          text-decoration: none;
+    }
+
+      #navbar a:hover {
+          text-decoration: underline;
+          color: #ff0000;         
+    }
+
+    /****************   
+      Main-Section 
+    *****************/
+
+      #main-doc {   
+          margin-left: 195px;
+          
+    }
+
+      #Motivation .followUs, #Track_Your_Weight .art-text {
+                margin: 0 auto;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 40px;
+                max-width: 1500px;
+                box-shadow: 20px 20px 50px 0px hsl(0, 1%, 56%);
+    }
+
+      #Lose_Weight {
+          padding: 20px;
+          box-shadow: 20px 20px 50px 0px hsl(0, 1%, 56%)
+    }
+
+      .track {
+          padding-right: 100px;
+          background-color: transparent;     
+    }
+
+      #Track_Your_Weight img,  #Motivation .followUs img {
+          width: 100%;
+          cursor: pointer;
+    }
+  
+     .track ul {
+          list-style: none;
+    }
+
+     .track  a {
+          text-decoration: underline;
+          color: #ff0000;
+          letter-spacing: .1em;
+    }
+
+     .track a:hover {
+          font-size: 15.5px;
+          text-decoration: none;
+          opacity: .5;
+          background-color: rgb(206, 204, 204);
+    }
+
+     @media (max-width: 845px) {
+
+      #navbar {
+      position: absolute;
+      min-width: 70px;
+      background: transparent;
+      border: none;
+     }   
+
+
+     .signUp, #topHeader p, h2 {
+          color: #fff;
+          margin-left: 10px;
+          padding: 4px;
+          width: 30%;
+    } 
+
+
+      .main-section, .art-text, .track{
+      display: flex;
+      flex-direction: column;
+      text-align: center;  
+      width: 100%;     
+     }
+
+
+    .track {
+   margin: 0 auto;
+   width: 320px;
+   text-align: center;
+}
+
+    }
+
