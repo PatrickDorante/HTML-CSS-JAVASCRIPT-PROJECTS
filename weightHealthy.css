@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Health Weight Program</title>
+      <link rel="stylesheet" href="weightHealthy.css">
+      
+     
+
+</head>
+
+      <body>
+            <div id='topHeader'>
+                  <div class="shopLogo">
+                        <h1><span>Pdoramik</span>Shop.</h1>
+                        <a class="signlogo" href="#">Join for Free</a>
+                  </div>
+                  <div id="topLogo" >
+                        <img class="smart-img" src="https://cdn.pixabay.com/photo/2019/03/23/19/57/smartphone-4076145_960_720.png" alt="Phone Logo">
+                        <div class="rcol">
+                              <h2><span>Healthy</span> Weight</h2>
+                              <p>Tract your food calories and lose Weights</p> 
+                              <a class="signUp" href="#">Get the App</a>
+                  </div>       
+                  </div>        
+            </div>
+
+            <!-- Nav Elements -->
+            <nav id="navbar">
+                  <header>Foods and Fitness</header>
+                  <ul>
+                        <li><a class="nav-link" href="#Track_Your_Weight">Track Your Weight</a></li>
+                        <li><a class="nav-link" href="#Work_it_out">Work it out</a></li>
+                        <li><a class="nav-link" href="#Lose_Weight">Lose Weight</a></li>
+                        <li><a class="nav-link" href="#Physical_Exercice">Physical Exercice</a></li>
+                        <li><a class="nav-link" href="#Healthy_Diets">Healthy Diets</a></li>
+                        <li><a class="nav-link" href="#Motivation">Motivation</a></li>
+                        <li><a class="nav-link" href="#Resources">Resources</a></li>
+                  </ul>
+            </nav>
+
+            <!-- Main Elements -->
+            <main id="main-doc"> 
+                  <section class="main-section" id="Track_Your_Weight">
+                        <header>Track Your Weight</header>
+                        <article class="art-text">
+                              <div class="track">
+                                    <h3>1. Tracking Goals</h3>
+                                    <ul>
+                                          <li><a href=""> &#128242 Download the App</a></li>
+                                          <li><a href=""> &#128170 Target health weight</a></li>
+                                          <li><a href=""> &#128202 Stats data & Graph</a></li>
+                                          <li><a href=""> &#129369 Daily Calories Intake</a></li>
+                                          <li><a href=""> &#127947 Fitness and Nutrition</a></li>      
+                                    </ul> 
+                                    <p>Plan and Program</p>
+                                    <p>
+                                                Morbi vestibulum diam pretium fringilla lacinia. 
+                                                Donec ultrices, nunc eu fringilla maximus, 
+                                                lorem justo luctus neque, imperdiet gravida 
+                                                arcu sem volutpat neque.
+                                    </p>
+                              </div>  
+                              <div class="track">
+                                    <h3 class="title">2. Foods Tracking</h3>
+                                    <img src="https://cdn.pixabay.com/photo/2019/05/27/07/20/weight-loss-4232016_960_720.jpg" alt="loss_weight">
+                                    <strike><figcaption> Credit: pixabay </figcaption></strike>
+                                    <p>
+                                          Morbi vestibulum diam pretium fringilla lacinia. Donec ultrices, nunc eu fringilla maximus, 
+                                          lorem justo luctus neque, imperdiet gravida arcu sem volutpat neque..
+                                    </p>
+                              </div> 
+                              <div class="track">  
+                                    <h3 class="title">Weight Tracker 3</h3>
+                                    <img src="https://cdn.pixabay.com/photo/2016/02/03/22/35/gym-room-1178293_960_720.jpg" alt="gym-room-fitness">
+                                    <strike><figcaption> Credit: pixabay </figcaption></strike>
+                                    <p>Plan and Program</p>
+                                    <p>
+                              Morbi vestibulum diam pretium fringilla lacinia. Donec ultrices, nunc eu fringilla maximus, 
+                              lorem justo luctus neque, imperdiet gravida arcu sem volutpat neque..
+                                    </p>
+                              </div> 
+                        </article>    
+                  </section>
+                  
+                  <section class="main-section How_It_Works" id="Work_it_out">
+                        <header>Work it out</header>
+                        <article class="art-text">
+                              <p>
+                              Spend less time on social media, more time knowing your personal
+                              or family medical history can save you money and pain.
+                              </p>
+                              <p>    
+                              Good Luck in your journey! &#128077; &#128077; &#128077; &#128077; &#128077;
+                              </p> 
+                              <p>
+                              Weight Loss Plan Overviews 
+                              </p>
+                        </article>
+                  </section>
+            
+                  <section class="main-section" id="Lose_Weight">
+                        <header>Lose Weight</header>
+                        <article>
+                              <p>
+                                    Formula and Calculation: How to measure your BMI in Kg or Lbs?
+                              </p>
+                              <h3 class="title">Kilograms Formula</h3>
+                              <code>
+                                    Formula: weight (kg) / [height (m)]2<br>
+                                    Let saty your Weight = 80 kg, Height = 170 cm (1.7 m)
+                                    Calculation: 80 ÷ (1.7)2 = 27.68 
+                  
+                              </code>
+                              <br><br>
+                              <p> 
+                                    Repeat the above formula for Pounds:
+                              </p>
+                              <code>
+                                    Formula: weight (lb) / [height (in)]2 x 703 <br>
+                                    Example: Weight = 200 lbs, Height = 5’9″ (65″)
+                                    Calculation: [200 ÷ (71)2] x 703 = 27.90 
+                              </code>
+                              <br><br>
+                              <h3 class="title">How to Measure Your Waist?</h3>
+                              <code>
+                                    Get a waist measurement, depending of the size of your tummy <br>
+                                    Place the tape measure at zero until it reaches and/or indicates the number of your waist 
+                                    in inches/centimeters. <br>
+                                    Double-check for accuracy. A healthy man waist should be less than ( > 37 in (94 cm) ) or<br>
+                                    less than ( > 31.5 in (80 cm) ) for a healthy woman waist as average indicator of low risk of serious medical problems
+                                    to be at low risk of obesity => type 2 diabetes, high blood pressure/hypertension, 
+                                    high cholesterol; those factors can limit blood flow, increase risk of stroke or heart attack.                                  
+                              </code>
+                        </article>
+                  </section>
+            
+                  <section class="main-section" id="Physical_Exercice">
+                  <header>Physical Exercice</header>
+                  <article>
+                        <p>
+                              Get a gym membership from us at no cost!
+                        </p>
+                        <code> 
+                              30 days of daily activities.
+                        </code>
+                        <p>
+                              Weight loss training for beginners
+                        </p>
+                        <code>
+                              Calculation on how to measure your daily calories intake. <br>
+                              Water + fiber + low-calorie foods = Healthy habits, 
+                              which will result in pounds lost.
+                        </code>
+                  </article>
+                  </section>
+            
+                  <section class="main-section" id="Healthy_Diets">
+                  <header>Healthy Diets</header>
+                  <article>
+                        Morbi vestibulum diam pretium fringilla lacinia. 
+                        Donec ultrices,nunc eu fringilla maximus,lorem justo luctus neque, 
+                        imperdiet gravida arcu sem volutpat neque.
+                  
+                        <code>
+                              Morbi vestibulum diam pretium fringilla lacinia. 
+                              Donec ultrices, nunc eu fringilla maximus, 
+                              lorem justo luctus neque, 
+                              imperdiet gravida arcu sem volutpat neque.
+                        </code>
+                        <p>
+                              Morbi vestibulum diam pretium fringilla lacinia. Donec ultrices, nunc eu fringilla maximus, 
+                              lorem justo luctus neque, imperdiet gravida arcu sem volutpat neque..
+                        </p>
+                  </article>
+                  </section>
+            
+                  <section class="main-section" id="Motivation">
+                  <header>Motivation</header>
+                  <article>
+                        <a href="#">
+                              <span>Follow us</span> to get healthy weight tips
+                        </a>
+                        <div class="followUs">
+                              <img src="https://cdn.pixabay.com/photo/2016/02/19/17/43/follow-1210793_960_720.png" alt="follow-Us">
+                  
+                        </div>
+                        <strike><figcaption> Credit: pixabay </figcaption></strike>
+                        <p>
+                              Motivation
+                        </p>
+                  </article>
+                  </section>
+
+                  <section class="main-section" id="Resources">
+                  <header>Resources</header>
+                  Reference: <a href="#">cdc</a>
+                  <article>
+                        
+                        <p>
+                              Fun Web Design coded by Patrick Dorante &copy; 2021
+                        </p>
+                  </article>
+                  </section>        
+            </main>
+            
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+            </script>
+            
+
+            
+            
+      </body>
+
+</html>
