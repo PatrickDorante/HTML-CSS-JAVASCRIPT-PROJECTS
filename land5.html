@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>land5</title>
+
+    <style>
+
+/************* Body & Title *************/
+        body {
+            font-family: "Poppins", sans-serif; 
+            margin: 0;
+            font-weight: 400;
+            font-size: 1.125rem;
+            background: #c7d7f3;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        span {
+            color: #077a7a;
+        }
+
+        h1,
+        h2, 
+        h3 {
+            font-family: 'Times New Roman', serif;
+            font-weight: 400; 
+            color: #143774;
+            }
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+        }   
+
+        a {
+            color: #1792d2;
+        } 
+
+        a:hover,
+        a:focus {
+            color: #143774;
+        } 
+
+        strong {
+            font-weight: 900;
+        }
+
+        .sub-title {
+            font-weight: 600;
+            color: #1792d2;
+            font-size: .75rem;
+            margin: 0;
+        }
+
+        .art-title {
+            font-size: 1.5em;
+        }
+
+        .art-art-readmore,
+        .art-info {
+            font-size: 0.875rem;
+        }
+
+        .art-art-readmore {
+            color: #1792d2;
+            text-decoration: none;
+            font-weight: 700;
+        }  
+
+         .art-art-readmore:hover,
+         .art-art-readmore:focus {
+            color: #143774;
+            text-decoration: underline;
+        }   
+
+/************* Container & layout *************/
+        .container { 
+            width: 90%;
+            max-width: 900px;
+            margin: 0 auto;
+            display: flex;
+            margin-top: -0.5em;
+        }
+
+        .h-flex { 
+            justify-content: space-between; 
+        }
+        
+        .d-flex {   
+            padding: 1em;
+        }
+        
+
+        header {
+            margin: 0 auto;
+            padding: 0.5em 0;
+            text-align: center;
+        }  
+
+        @media (max-width: 675px) { 
+            .h-flex{
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+            header, main, aside, footer {
+            text-align: center;
+        }  
+
+
+        header {
+            text-align: center;
+            border-bottom: dotted 1px #b4b9b4;
+            }  
+
+        footer {
+                border-top: dotted 1px #b4b9b4;
+            }
+
+            .low-flex {
+            border-left: dotted 1px #b4b9b4;
+            margin-left: 1.8em;     
+        }
+
+        }
+
+        main {
+            width: 75%;
+        }
+
+        aside {
+            width: 50%;
+        }
+
+        @media (min-width: 675px) {
+            .h-flex {
+               flex-direction: row;
+            }
+        }
+               
+/********************* Nav, Ul, li a Layout *************/
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center ;
+        }
+
+        nav li {
+            margin-left: 2em; 
+           
+        }
+
+        nav a {
+            color: #707070;
+            font-weight: 700;
+            text-decoration: none;
+            padding: .25em 0;   
+        }
+
+        nav a:hover, 
+        nav a:focus {
+            color: aquamarine;
+        }
+
+
+        @media (max-width: 675px) {
+            nav ul {
+                flex-direction: column;
+            }
+
+            nav li {
+                margin: .5em 0;
+            }
+        }
+
+        .sidebar-widget {
+            border: rgb(221, 218, 218) solid 20px;
+            margin-bottom: 2em;
+            margin-top: 4.3em;
+            padding: 1em;
+        }
+
+        .widget-post {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .widget-post:last-child {
+          margin: 0;
+          border: 0;
+        }
+
+    
+        footer {
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            margin-top: 1em;
+            padding: .1em 0;
+        }
+    
+    </style>
+    </head>
+
+    <body>
+    <!-- Header -->
+    <header>
+        <div class="container h-flex">
+            <div class="store-title"><h1><span>Pdoramik</span>Store</h1>
+                <p class='sub-title'><em>Best Family Shopping Store in Town</p></em></p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Brands</a></li>
+                    <li><a href="#">Deals</a></li>
+                    <li><a href="#">Services</a></li>
+            </ul>
+            </nav>
+       </div>
+    </header> 
+
+ <!-- Main container --> 
+    <div class="container d-flex">
+        
+<!-- 1st main content -->
+        <main class="main flex-main" >
+            <article class="art-feature">
+                <h2 class="art-title">La vie est belle</h2>
+                  <img 
+                     src='https://cdn.pixabay.com/photo/2014/03/21/09/25/skyline-291914_960_720.jpg' 
+                     alt="phone" 
+                     class="art-image"/>
+                     <p  class="art-info">March 23, 2021</p>
+                     <p  class="art-body">
+                        <strong><strike><em> Patrick Dorante</em></strike></strong>   
+                         <a href="#">Fusce eget ante non felis posuere consequat eget a tortor.</a> 
+                         Sed dapibus massa sit amet erat sodales, ac volutpat lectus eleifend. 
+                         iaculis condimentum ante. Nunc imperdiet eget sapien et venenatis
+                     </p>
+                     <a href="#"  class="art-readmore">Super Landscape</a>
+            </article>
+                
+ <!-- 2nd main content --> 
+
+            <article class="art-recent">
+                <div class="art-main">
+                    <h2 class="art-title">La vie est en rose</h2>
+                        <p  class="art-info">
+                            Quisque eget dignissim libero. Nullam lacus nunc, pretium at auctor ac, 
+                            venenatis eu arcu. Nunc sem tellus, volutpat vitae mauris in, 
+                            porta posuere mauris. Sed condimentum faucibus nibh, 
+                            in tristique nunc mollis ac.
+                        </p> 
+                        <p  class="art-body">
+                            Integer mattis interdum urna non placerat. Sed vulputate augue risus, 
+                            imperdiet venenatis turpis vestibulum et.
+                            Nunc eu ligula sagittis, interdum elit et, commodo eros
+                        </p>
+                        <a href="#"  class="art-readmore">La Vie est l'espoir</a>
+                </div>
+
+                <div class="art-secondary">
+                    <img 
+                                src="https://cdn.pixabay.com/photo/2018/05/14/16/54/alpine-3400788__340.jpg" 
+                                alt="mountain Sunset" 
+                         class="art-image"/>
+                         <p  class="art-info">
+                            Blandit pulvinar dolor. 
+                            Etiam at lorem eu quam finibus bibendum eget non lectus.
+                            hendrerit sit amet iaculis id, elementum quis lectus. 
+                            Nulla non lobortis mi, et egestas turpis.
+                         </p>
+                </div>
+            </article>
+
+ <!-- 3rd main content --> 
+
+            <article class="art-recent">
+                <div class="art-main">
+                    <h2>God is good</h2>
+                    <p  class="art-body">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Pellentesque id sem et velit pharetra bibendum. Duis nisi sapien, 
+                        tincidunt vel felis tempus, blandit pulvinar dolor. 
+                        Etiam at lorem eu quam finibus bibendum eget non lectus.
+                    </p>
+                    <a href="#"  class="art-readmore">Le Combat Continue</a>
+                </div>
+
+                <div class="art-secondary">
+                    <img 
+                      src="https://cdn.pixabay.com/photo/2017/07/24/12/43/schrecksee-2534484__340.jpg" 
+                      alt="source water-lake" 
+                      class="art-image"/>
+                      <p  class="art-info">
+                          Vestibulum vehicula magna sit amet sem dictum ornare. 
+                          Proin eu purus eu magna bibendum molestie et nec nisl.
+                          Aenean ornare risus sed varius pulvinar. 
+                          Phasellus cursus sem vitae tellus pellentesque pulvinar.
+                      </p>
+                </div>
+            </article>
+  
+ <!-- 4th main content --> 
+
+            <article class="art-recent">
+                        <div class="art-main">
+                            <h2>L'espoir fait vivre!</h2>
+                            <p class="art-body">
+                                Vestibulum viverra ut orci ut ultricies. 
+                                Fusce eu rutrum massa. Orci varius natoque penatibus
+                                et magnis dis parturient montes, nascetur ridiculus mus. 
+                                Quisque pretium placerat velit, vitae iaculis ante pellentesque. 
+                                hac habitasse platea dictumst. In hac habitasse platea dictumst.
+                            </p>
+                            <a href="#"  class="art-readmore">L'armour c'est la joie de vivre</a>
+                       </div>
+            </article>                 
+        </main>    
+    
+
+<!-- Aside content -->      
+        <aside class="sidebar low-flex">
+
+                 <div class="sidebar-widget">
+                     <div class="side-flex low-flex"><hr>
+                        <h2 class="widget-title"><u>Creation</u></h2>
+                        <img
+                        src="https://cdn.pixabay.com/photo/2015/10/12/15/01/coastline-984088__340.jpg" 
+                        alt="coastline-montain"
+                         class="widget-image">
+                        <p class="widget-body">
+                        Sed efficitur gravida nunc at convallis. Donec nunc nulla. 
+                        Vestibulum tincidunt, augue ac rhoncus ullamcorper, ligula.
+                        non cursus mi tortor sed diam. Maecenas pellentesque placerat. 
+                        Maecenas blandit ligula eu nibh efficitur, quis malesuada.
+                        </p>
+                     </div>
+
+                       <div class="low-flex"><hr>
+                        <h2  class="widget-title"><u>Elevation</u></h2>
+                        <div class="widget-post"> 
+                            <h3 class="widget-post-title">Mountain Cloud</h3>
+                            <img 
+                                src="https://cdn.pixabay.com/index/2021/03/02/12-58-10-66_1440x480.jpg" 
+                                alt="rose-montain" 
+                                class="widget-image">
+                        </div><br> <hr>
+                        <div class="widget-post"> <hr>
+                            <h3 class="widget-post-title"><u>View</u></h3>
+                            <img 
+                                src="https://cdn.pixabay.com/photo/2017/03/05/00/34/panorama-2117310__340.jpg" 
+                                alt="rose-montain" 
+                                class="widget-image">
+                        </div>    
+                     </div>
+                 </div>
+
+        
+        </aside>
+    </div> 
+<!-- Footer --> 
+    <footer class="h-flex">
+        <p>Patrick Dorante&copy; 2021 Copyright</p>
+    </footer>
+
+   
+    </body>
+
+</html>
