@@ -1,3 +1,5 @@
+/* Body and container */
+
 * {
       margin: 0;
       padding: 0;
@@ -15,6 +17,11 @@ body {
       font-family: poppins;
 }
 
+h1 {
+      top: 0;
+      left: 0;
+}
+
 .container {
       background-color: #333;
       padding: 4px 5px 0;
@@ -24,6 +31,9 @@ body {
       inset -5px -5px 15px rgba(0,0,0,0.5),
       inset 5px 5px 15px rgba(0,0,0,0.5);
 }
+
+
+/* Layout and styles */
 
 
 .calculator {
@@ -89,6 +99,13 @@ body {
 
 span.output {
       background: rgb(195, 59, 9);
+}
+
+
+#footer {
+      bottom: -350px;
+      left: -350px;
+      margin-top: -55px;
 }
 
 
