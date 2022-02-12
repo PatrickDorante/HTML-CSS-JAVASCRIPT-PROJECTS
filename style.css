@@ -100,7 +100,10 @@ h1 {
 span.output {
       background: rgb(195, 59, 9);
 }
-
+ 
+span.btn {
+      background: rgb(195, 59, 9);
+}
 
 #footer {
       bottom: -350px;
